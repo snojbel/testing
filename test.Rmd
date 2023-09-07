@@ -17,12 +17,15 @@ for (i in 1:23){
 }
 ```
 
+```{r}
+x
+```
 ## Pretty plots are **essential**
 
 
 
-```{r pressure, echo=FALSE}
-plot(x, col = rainbow(x))
+```{r, echo=FALSE}
+plot(x, col = rainbow(x), pch = 16)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
